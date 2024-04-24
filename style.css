@@ -1,0 +1,98 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo img {
+    max-width: 150px; /* Ajuste conforme necessário */
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .images {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .images img {
+  
+    margin-bottom: 20px;
+    width: 100%; /* As imagens ocuparão a largura total do contêiner */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+    transition: transform 0.3s; /* Transição suave para a transformação */
+  }
+  
+  .images img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% ao passar o mouse */
+  }
+  
+  .history {
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 50px 0; /* Adiciona um espaço acima e abaixo do conteúdo */
+  }
+  
+  .history h2 {
+    font-size: 36px; /* Tamanho grande para o título */
+    color: #333; /* Cor do texto */
+  }
+  
+  .history p {
+    font-family: monospace; /* Usa uma fonte estilo datilografia */
+    font-size: 14px; /* Tamanho do texto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    white-space: nowrap; /* Impede quebras de linha */
+    overflow: hidden; /* Esconde o conteúdo que transborda */
+    border-right: 2px solid #333; /* Adiciona o cursor de digitação */
+    animation: typing 3s steps(40, end); /* Animação de digitação */
+  }
+  
+  /* Animação de digitação */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  /* Adicione estas regras CSS para organizar os tópicos lado a lado e estilizá-los */
+  .topics {
+    text-align: center; /* Centraliza o conteúdo */
+  }
+  
+  .topics ul {
+    display: flex; /* Organiza os tópicos lado a lado */
+    justify-content: center; /* Centraliza os tópicos horizontalmente */
+    padding: 20px 0; /* Adiciona espaçamento acima e abaixo dos tópicos */
+    list-style-type: none; /* Remove os marcadores da lista */
+  }
+  
+  .topics li {
+    margin: 0 10px; /* Espaçamento entre os tópicos */
+  }
+  
+  .topics a {
+    font-family: monospace; /* Usa uma fonte estilo datilografia */
+    font-size: 18px; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    border-right: 2px solid #333; /* Adiciona o cursor de digitação */
+    padding-right: 10px; /* Adiciona espaço à direita dos links */
+    animation: typing 3s steps(40, end); /* Animação de digitação */
+  }
+  
+  /* Animação de digitação */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
